@@ -18,13 +18,13 @@
 
 html, body {
     min-height: 100vh;
-    background-color: white;
+    background-color: #1a1a1d;
     font-family: var(--fonte1);
 }
 
 header {
-    background-color: black;
-    color: white;
+    background-color: #f5f5f5;
+    color: #1a1a1d;
     text-align: center;
 }
 
@@ -40,7 +40,7 @@ header > p {
 }
 
 a {
-    color: white;
+    color: #1a1a1d;
     text-decoration: none;
     font-weight: bolder;
 }
@@ -61,16 +61,15 @@ section {
 section > p {
     padding-bottom: 2em;;
 }
-}
 
 section.normal {
-    background-color: white;
-    color: black;
+    background-color: #1a1a1d;
+    color: #f5f5f5;
 }
 
 section.imagem {
     background-color: rgb(34, 29, 29);
-    color: white;
+    color: #f5f5f5;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.445);
     background-size: cover;
     background-attachment: fixed;
@@ -84,17 +83,17 @@ section.imagem > p {
 }
 
 section#img01 {
-    background-image: url('../imagens/background001.jpg');
+    background-image: url('../imagens/piano.png');
     background-position: right center; 
 }
 
 section#img02 {
-    background-image: url(../imagens/background002.jpg);
+    background-image: url('../imagens/chuva.png');
 }
 
 footer {
-    background-color: black;
-    color: white;
+    background-color: #f5f5f5;
+    color: #1a1a1d;
     text-align: center;
     padding: 10px;
 }
